@@ -1,0 +1,14 @@
+export default function HTML({ content }) {
+  return `
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="UTF-8">
+        <title>My Page</title>
+      </head>
+      <body>
+        ${content}
+      </body>
+    </html>
+  `;
+}
